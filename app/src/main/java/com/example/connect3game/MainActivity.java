@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                     } else {
                         winner = "red";
                     }
-                    Toast.makeText(this, "Someone has won", Toast.LENGTH_LONG).show();
+                    Toast.makeText(this, winner + " has won", Toast.LENGTH_LONG).show();
                 }
 
             }
